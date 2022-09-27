@@ -84,3 +84,19 @@ console.log(mobileCheck())
 // };
 
 // validateForms('.form-1', rules1, afterForm);
+
+import * as THREE from 'three';
+import 'vanta/src/vanta.halo';
+
+VANTA.HALO({
+  el: "#hero",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 320.00,
+  minWidth: 320.00,
+  baseColor: 0x51d55,
+  backgroundColor: 0x141d4a,
+  xOffset: 0.25,
+  THREE: THREE
+})
