@@ -93,10 +93,9 @@ VANTA.HALO({
   mouseControls: true,
   touchControls: true,
   gyroControls: false,
-  minHeight: 320.00,
   minWidth: 320.00,
-  baseColor: 0x51d55,
-  backgroundColor: 0x141d4a,
-  xOffset: 0.25,
+  minHeight: 568.00,
+  baseColor: 0x1a59,
+  backgroundColor: 0x131a43,
   THREE: THREE
 })

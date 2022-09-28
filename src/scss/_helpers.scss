@@ -1,0 +1,11 @@
+.text-shadow-black {
+  text-shadow: 2px 2px 2px black;
+}
+
+/* Увеличить дефолтное значение шрифта у тега h1 */
+@media (min-width: 1200px) {
+  h1,
+  .h1 {
+    font-size: 4.5rem;
+  }
+}
