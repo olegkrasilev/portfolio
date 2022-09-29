@@ -16,3 +16,13 @@
     font-size: 4rem;
   }
 }
+
+.background-attachment-fixed {
+  background-attachment: fixed;
+}
+
+@media screen and (max-width: 1366px) {
+  .background-attachment-fixed {
+    background-attachment: scroll;
+  }
+}
