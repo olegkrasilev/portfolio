@@ -3,3 +3,9 @@
   grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
   align-items: baseline;
 }
+
+@media screen and (max-width: 550px) {
+  .differences__wrapper {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
