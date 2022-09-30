@@ -1,12 +1,3 @@
-.solutions {
-  background-image: url("../../img/solutions-bg-1600.avif"),
-    url("../../img/solutions-bg-1600.webp"),
-    url("../../img/solutions-bg-1600.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
 .solutions__bottom {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
