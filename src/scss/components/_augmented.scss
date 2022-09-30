@@ -1,0 +1,31 @@
+.augmented {
+  background-image: url("../../img/augmented-bg-1600.avif"),
+    url("../../img/augmented-bg-1600.wepb"),
+    url("../../img/augmented-bg-1600.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: cover;
+}
+
+.arrow-1 {
+  padding: 10px;
+  background: conic-gradient(from -135deg, currentColor 90deg, #0000 0)
+      var(--p, -8px) 100%/16px 16px,
+    linear-gradient(90deg, currentColor calc(100% - 8px), #0000 0) bottom 6px
+      left 0 / var(--d, 0%) 3px;
+  background-repeat: no-repeat;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 900px) {
+  .arrow-1 {
+    border: 1px solid #fff !important;
+  }
+}
+
+@media (any-hover: hover) {
+  .arrow-1:hover {
+    --d: 100%;
+    --p: calc(100% + 8px);
+  }
+}
