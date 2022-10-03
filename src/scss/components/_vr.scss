@@ -1,0 +1,13 @@
+.virtual-reality {
+  background-image: url("../../img/vr-bg-1600.avif"),
+    url("../../img/vr-bg-1600.webp"), url("../../img/vr-bg-1600.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: cover;
+}
+
+@media screen and (max-width: 500px) {
+  .virtual-reality {
+    background-position: 85%;
+  }
+}
