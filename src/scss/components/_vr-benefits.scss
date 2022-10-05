@@ -1,0 +1,11 @@
+.vrBenefits__wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
+  align-items: baseline;
+}
+
+@media screen and (max-width: 550px) {
+  .vrBenefits__wrapper {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
