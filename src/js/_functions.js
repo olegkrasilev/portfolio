@@ -57,8 +57,8 @@
 // });
 
 // Подключение анимаций по скроллу
-// import AOS from 'aos';
-// AOS.init();
+import AOS from 'aos';
+AOS.init();
 
 // Подключение параллакса блоков при скролле
 // import Rellax from 'rellax';
