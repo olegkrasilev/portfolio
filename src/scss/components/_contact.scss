@@ -1,0 +1,32 @@
+.contact {
+  background-image: url("../../img/contact-1600.avif"),
+    url("../../img/contact-1600.webp"), url("../../img/contact-1600.png");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: cover;
+}
+
+.contact__form {
+  width: 50%;
+  margin-left: auto;
+  text-shadow: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .contact__form {
+    width: 100%;
+  }
+}
+
+.fancy-6 {
+  background: linear-gradient(45deg, #fff 50%, transparent 0) right / 250% 100%
+      no-repeat,
+    linear-gradient(45deg, transparent 50%, #fff 0) left / 250% 100% no-repeat;
+  transition: 0.5s;
+}
+@media (any-hover: hover) {
+  .fancy-6:hover {
+    color: #000 !important;
+    background-position: center;
+  }
+}
