@@ -4,7 +4,9 @@
 }
 
 .burger {
+  position: relative;
   stroke-dasharray: 0;
+  z-index: 9;
 }
 
 .burgerRect,
