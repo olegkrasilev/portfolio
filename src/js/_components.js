@@ -2,12 +2,13 @@
   Preloader
 */
 
-const preloader = document.getElementById('preloader')
+const preloader = document.getElementById('preloader');
+const animationDuration = 4000;
 
 document.addEventListener('DOMContentLoaded', () => {
   setTimeout(() => {
     preloader.classList.add('loaded')
-  },4000)
+  },animationDuration)
 },{once: true});
 
 /* Burger Menu Logic */
