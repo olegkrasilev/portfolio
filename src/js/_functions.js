@@ -97,5 +97,5 @@ VANTA.HALO({
   minHeight: 200.00,
   baseColor: 0x1a59,
   backgroundColor: 0x131a43,
-  THREE: THREE
+  THREE
 })
