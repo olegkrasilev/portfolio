@@ -1,9 +1,17 @@
 .virtual-reality {
+  position: relative;
   background-image: url("../img/vr-bg-1600.avif"), url("../img/vr-bg-1600.webp"),
     url("../img/vr-bg-1600.jpg");
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: cover;
+}
+
+.virtual-reality::before {
+  position: absolute;
+  background-color: rgba($color: #000, $alpha: 30%);
+  content: "";
+  inset: 0;
 }
 
 @media screen and (max-width: 500px) {
