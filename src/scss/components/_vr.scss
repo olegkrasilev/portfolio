@@ -1,5 +1,6 @@
 .virtual-reality {
   position: relative;
+  z-index: 1;
   background-image: url("../img/vr-bg-1600.avif"), url("../img/vr-bg-1600.webp"),
     url("../img/vr-bg-1600.jpg");
   background-repeat: no-repeat;
@@ -9,6 +10,7 @@
 
 .virtual-reality::before {
   position: absolute;
+  z-index: -1;
   background-color: rgba($color: #000, $alpha: 30%);
   content: "";
   inset: 0;
