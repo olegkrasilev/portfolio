@@ -3,7 +3,7 @@
 */
 
 const preloader = document.getElementById('preloader');
-const animationDuration = 4000;
+const animationDuration = 1500;
 
 document.addEventListener('DOMContentLoaded', () => {
   setTimeout(() => {
