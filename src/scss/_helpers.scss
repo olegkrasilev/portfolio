@@ -42,3 +42,7 @@ section {
 .form-control {
   font-size: 0.75rem;
 }
+
+.form-floating > label {
+  top: -5px;
+}
